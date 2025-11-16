@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My First JS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index1.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <form>
+      <table>
+        <tr>
+          <td>Enter First number</td>
+          <td><input type="number" id="first_num" /></td>
+        </tr>
+
+        <tr>
+          <td>Enter Second number</td>
+          <td><input type="number" id="second_num" /></td>
+        </tr>
+      </table>
+    </form>
+
+    <!-- Multiple operation buttons -->
+    <button onclick="calculate('add')">Add</button>
+    <button onclick="calculate('sub')">Subtract</button>
+    <button onclick="calculate('mul')">Multiply</button>
+    <button onclick="calculate('div')">Divide</button>
+
+    <div id="box1" 
+         class="box" 
+         onmouseover="changeBgColor()" 
+         onmouseout="undoBgColor()">
+        <div><div>here</div></div>
+    </div>
+
+    <div id="result">...</div>
+
+    <script src="index1.js"></script>
+  </body>
+</html>
