@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <div class="header">
+        
+        <!-- LOGO SECTION -->
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Logo">
+            <p class="logo-text">Let's Fly</p>
+        </div>
+
+        <!-- SEARCH SECTION -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button class="search-btn">Search</button>
+        </div>
+
+        <!-- DROPDOWN + LINKS -->
+        <div class="dropdown">
+            <select>
+                <option>Login/Sign Up</option>
+                <option>Login</option>
+                <option>Sign Up</option>
+            </select>
+
+            <!-- Hyperlinks -->
+            <p>
+                <a href="#">Home</a> | 
+                <a href="#">About</a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+
+        <!-- LEFT IMAGE -->
+        <div class="left">
+            <img src="images/sample.jpg" alt="Sample Image" class="main-image">
+        </div>
+
+        <!-- MIDDLE DESCRIPTION -->
+        <div class="middle">
+            <h3>Book your Holidays with Us!</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <!-- RIGHT FEEDBACK FORM -->
+        <div class="right">
+            <h3>Feedback Form</h3>
+
+            <label>Your Name:</label><br>
+            <input type="text" placeholder="Enter your name"><br><br>
+
+            <label>Your Email:</label><br>
+            <input type="text" placeholder="Enter your email"><br><br>
+
+            <label>Rate Us:</label><br>
+            <input type="radio" name="rate"> Good
+            <input type="radio" name="rate"> Average
+            <input type="radio" name="rate"> Bad<br><br>
+
+            <label>Feedback:</label><br>
+            <textarea placeholder="Write your feedback..." rows="4"></textarea><br><br>
+
+            <button class="submit-btn">Submit</button>
+        </div>
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>
+            Become a seller | Advertise | Gift Cards | Help Center<br><br>
+            © 2007-2025 flipkart.com
+        </p>
+
+        <div class="payments">
+            <img src="images/visa.png" alt="Visa">
+            <img src="images/mastercard.webp" alt="MasterCard">
+            <img src="images/amex.png" alt="American Express">
+            <img src="images/discover.jpg" alt="Discover">
+            <img src="images/rupay.png" alt="Rupay">
+        </div>
+    </div>
+
+</body>
+</html>
