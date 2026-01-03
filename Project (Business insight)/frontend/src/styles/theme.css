@@ -1,0 +1,25 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.app-container {
+  padding: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary {
+  background-color: #4f46e5;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
